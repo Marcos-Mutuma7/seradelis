@@ -53,7 +53,7 @@ export default Banner;
 const styles = {
   section: {
     background: ` url(${illustration}) no-repeat center top / cover`,   
-    backgroundSize: ['180%', null, null, null, 'cover'],
+    backgroundSize: ['220%', null, null, null, 'cover'],
     height:['150%', '100%'],
     pt: [18, null, null, 17, null, null, 0],
     pb: [12, null, null, 12, 7, 11, 0],
