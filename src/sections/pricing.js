@@ -10,7 +10,7 @@ const data = [
   {
     id: 1,
     title: 'Starter Pack',
-    amount: 18.99,
+    amount: 100.99,
     is_recommended: false,
     library_access: true,
     multiple_user: true,
@@ -22,7 +22,7 @@ const data = [
   {
     id: 2,
     title: 'Premium Pack',
-    amount: 23.99,
+    amount: 250.99,
     is_recommended: true,
     library_access: true,
     multiple_user: true,
@@ -34,7 +34,7 @@ const data = [
   {
     id: 3,
     title: 'Custom Pack',
-    amount: 29.99,
+    amount: 400.99,
     is_recommended: false,
     library_access: true,
     multiple_user: true,
@@ -46,7 +46,7 @@ const data = [
   {
     id: 4,
     title: 'Ultimate Pack',
-    amount: 35.99,
+    amount: 650.99,
     is_recommended: false,
     library_access: true,
     multiple_user: true,
@@ -104,10 +104,10 @@ const Pricing = () => {
         <Box sx={styles.grid}>
           {isTablet && (
             <ul as="ul" sx={styles.features}>
-              <li>Full Access Library</li>
+              <li>Full Access Collection</li>
               <li>Multiple user</li>
               <li>Refund Policy</li>
-              <li>Google Analytics</li>
+              <li>Crypto Awards</li>
               <li>24/7 support</li>
             </ul>
           )}

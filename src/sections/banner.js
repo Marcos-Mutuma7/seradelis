@@ -31,23 +31,15 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              A Creative way to grow your Exciting Business ideas
+            Eco-Friendly Waste Management company in Africa
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+            Our consolidated approach provides you with a Single Source of Responsibility that makes your project management easier.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>
-              <Text as="span">Our clients</Text>
-              <Flex sx={styles.sponsor}>
-                {logos?.map((logo, index) => (
-                  <Flex as="figure" key={index}>
-                    <Image src={logo.src} alt={logo.name} />
-                  </Flex>
-                ))}
-              </Flex>
+              
+              
             </Flex>
           </Box>
         </Box>
@@ -60,7 +52,8 @@ export default Banner;
 
 const styles = {
   section: {
-    background: `transparent url(${illustration}) no-repeat center top / cover`,
+    backgroundColor:'black',
+    background: `transparent url(${illustration}) no-repeat center top / cover`,   
     pt: [18, null, null, 17, null, null, 0],
     pb: [12, null, null, 12, 7, 11, 0],
   },
@@ -80,16 +73,16 @@ const styles = {
     m: [null, null, '0 auto', null, 0],
     textAlign: ['center', null, null, null, 'left'],
     h1: {
-      fontFamily: 'headingAlt',
-      fontSize: [9, null, null, 10, 12, 45, 16],
+      fontFamily: 'Poppins',
+      fontSize: [9, null, null, 10, 12, 45, 18],
       lineHeight: [1.31, null, null, 1.5, null, 1.26],
       letterSpacing: [0, null, null, null, '-1.5px'],
-      color: 'textSecondary',
+      color: 'white',
     },
     p: {
-      fontSize: ['13px', null, null, 2, 3],
+      fontSize: ['13px', null, null, 2, 4],
       lineHeight: [1.87, null, null, 2, null, 2.33],
-      color: 'textSecondary',
+      color: 'white',
       maxWidth: [null, null, 370, 470],
       m: ['20px auto 0', null, null, null, '25px auto 0'],
     },

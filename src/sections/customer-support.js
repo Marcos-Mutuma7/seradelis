@@ -3,13 +3,13 @@
 import { jsx, Box, Container, Grid, Heading, Text } from 'theme-ui';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import Image from 'components/image';
-import support from 'assets/images/support.png';
+import support from 'assets/images/1.png';
 
 const list = [
-  'Medical and vision',
-  'Life insurance',
-  'HSAs and FSAs',
-  'Commuter benefits',
+  'FaQs',
+  'Product & Services',
+  'Service Questions',
+  'Account',
 ];
 
 const CustomerSupport = () => {
@@ -26,9 +26,7 @@ const CustomerSupport = () => {
               satisfaction.
             </Heading>
             <Text as="p" sx={styles.summary}>
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+            We’re dedicated to providing best-in-class service and making your life a little easier. Have a question? Visit our support center or start a chat with a Waste Management representative.
             </Text>
 
             <Grid sx={styles.list} as="ul">
@@ -68,9 +66,9 @@ const styles = {
     position: 'relative',
     display: 'flex',
     alignItems: 'center',
-    mt: [2, null, null, 0, 4, 0],
+    mt: [2, null, null, 0, 4, -4],
     img: {
-      maxWidth: ['100%', null, null, null, null, '100%'],
+      width:[480],
     },
   },
   content: {
@@ -80,7 +78,7 @@ const styles = {
     textAlign: ['center', null, null, null, 'left'],
   },
   title: {
-    color: 'heading',
+    color: 'headingSecondary',
     fontFamily: 'headingAlt',
     fontSize: [4, null, null, 8, null, null, 11],
     fontWeight: 500,
@@ -93,7 +91,7 @@ const styles = {
     },
   },
   summary: {
-    color: 'textSecondary',
+    color: 'link',
     fontSize: ['13px', null, null, 2, '15px', 2],
     lineHeight: [1.86, null, null, null, 1.86, 2.25],
     maxWidth: 470,
@@ -110,7 +108,7 @@ const styles = {
       fontSize: [0, 1, null, 2, '15px', 2],
       fontWeight: 500,
       alignItems: 'center',
-      color: 'textSecondary',
+      color: 'link',
       display: 'flex',
       lineHeight: [2.81, null, null, null, 2.2, 2.81],
     },

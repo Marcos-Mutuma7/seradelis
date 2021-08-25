@@ -1,13 +1,15 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import { jsx ,Heading ,Image} from 'theme-ui';
 import { Link } from 'components/link';
-import LogoSvg from 'components/icons/logo';
+import logo from 'assets/images/logo.png';
+
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      <LogoSvg />
+      <Image src={logo} sx={styles.image} alt="startup landing logo" />
+
     </Link>
   );
 }
@@ -16,10 +18,8 @@ const styles = {
     alignItems: 'center',
     cursor: 'pointer',
     display: 'inline-flex',
-    maxWidth: [null, null, null, 185, null, 'none'],
-    svg: {
-      height: 'auto',
-      width: [128, null, '100%'],
-    },
+    width:[90, 120],
+    
+
   },
 };

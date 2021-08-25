@@ -4,55 +4,55 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/features/1.png';
-import icon2 from 'assets/images/features/2.png';
-import icon3 from 'assets/images/features/3.png';
-import icon4 from 'assets/images/features/4.png';
-import icon5 from 'assets/images/features/5.png';
-import icon6 from 'assets/images/features/6.png';
+import icon1 from 'assets/images/features/7.svg';
+import icon2 from 'assets/images/features/8.svg';
+import icon3 from 'assets/images/features/9.svg';
+import icon4 from 'assets/images/features/11.svg';
+import icon5 from 'assets/images/features/10.svg';
+import icon6 from 'assets/images/features/12.svg';
 
 const data = [
   {
     id: 1,
     icon: icon1,
     path: '#!',
-    title: 'Email Subscription',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Residential waste & Recycling Pickup',
+    description: `Waste and recycling solutions for your home.`,
   },
   {
     id: 2,
     icon: icon2,
     path: '#!',
-    title: 'Bolt Performance',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Bagster - Dumpster in a bag',
+    description: `A convenient solution to handle any job too big for your normal trash service.`,
   },
   {
     id: 3,
     icon: icon3,
     path: '#!',
-    title: 'Secure Transaction',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Temporary Dumpster Rental',
+    description: `We have a variety of roll-off dumpster sizes for any project.`,
   },
   {
     id: 4,
     icon: icon4,
     path: '#!',
-    title: 'Multiple Options',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Bulbs,Battteries and Electonics',
+    description: `Convenient home collection or mail-in recycling service for bulbs, batteries and electronics.`,
   },
   {
     id: 5,
     icon: icon5,
     path: '#!',
-    title: 'Customer Support',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Large Truck Pickup',
+    description: `Convenient pickup options for large items like appliances and furniture or just multiple bulky items.`,
   },
   {
     id: 6,
     icon: icon6,
     path: '#!',
-    title: 'Integrated with Shopify',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'Household Hazardous Waste',
+    description: `Waste Management has the expertise and tools needed to take care of waste that might be hazardous to your household and the environment, the right way. `,
   },
 ];
 
@@ -62,8 +62,8 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="we are at your service with reliable trash collection & sustainable waste management "
+          title="Services For Your Home"
         />
         <Box sx={styles.grid}>
           {data?.map((item) => (
@@ -85,6 +85,7 @@ const styles = {
   },
   heading: {
     marginBottom: [7, null, null, 8, 7],
+    
     p: {
       maxWidth: 490,
       margin: ['10px auto 0'],

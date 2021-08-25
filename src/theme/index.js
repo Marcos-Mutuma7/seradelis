@@ -5,8 +5,8 @@ export default {
   colors: {
     text: "#343D48", // body color and primary color
     textSecondary: "#02073E", // secondary body color
-    heading: "#0F2137", // primary heading color
-    headingSecondary: "#343D48", // heading color
+    heading: "#0E0E6D", // primary heading color
+    headingSecondary: "#33EA24", // heading color
     background: "#FFFFFF", // body background color
     backgroundSecondary: "#F9FAFC", // secondary background color
     borderColor: "#E9EDF5", // border color
@@ -28,12 +28,12 @@ export default {
     // },
   },
   fonts: {
-    body: "DM Sans, sans-serif",
+    body: "Poppins, sans-serif",
     // body:
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: "DM Sans, sans-serif",
-    headingAlt: `'Arvo', serif`,
-    monospace: "Menlo, monospace",
+    heading: "Poppins, sans-serif",
+    headingAlt: `'Poppins', serif`,
+    monospace: "Poppins, monospace",
   },
   fontSizes: [
     12, // 0

@@ -45,20 +45,20 @@ const styles = {
     figure: {
       display: 'inline-flex',
       alignItems: 'center',
-      minWidth: [70],
-      mb: 6,
+      width : 70,
+      mb:6,
     },
     h4: {
       fontSize: 3,
-      fontWeight: 700,
+      fontWeight: 500,
       lineHeight: 1.28,
-      color: 'heading',
+      color: 'headingSecondary',
       marginBottom: 2,
     },
     p: {
       fontSize: [1, null, null, null, 2],
       lineHeight: 1.88,
-      color: 'headingSecondary',
+      color: 'link',
     },
     a: {
       mt: [2, null, null, null, 6],

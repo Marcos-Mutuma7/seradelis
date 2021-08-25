@@ -25,9 +25,7 @@ export default function IndexPage() {
         <CustomerSupport />
         <Pricing />
         <Support />
-        <Clients />
         <Blog />
-        <Faq />
       </Layout>
     </ThemeProvider>
   );

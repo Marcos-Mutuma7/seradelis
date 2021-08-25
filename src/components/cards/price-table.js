@@ -53,7 +53,7 @@ const PriceTable = ({ data }) => {
         >
           Choose Plan
         </Button>
-        <span sx={styles.trial}>{data.trial_period} days free trial</span>
+        
       </div>
     </div>
   );
@@ -108,7 +108,7 @@ const styles = {
     textTransform: 'uppercase',
   },
   title: {
-    color: rgba('#0F2137', 0.5),
+    color: 'link',
     display: 'block',
     fontWeight: 500,
     fontSize: [1, null, null, 2],
@@ -116,7 +116,7 @@ const styles = {
     mb: [3, null, null, 5, 2, 5],
   },
   amount: {
-    color: 'heading',
+    color: 'headingSecondary',
     display: 'block',
     fontWeight: 'bold',
     fontSize: [4, null, null, 7, 4, 7],
@@ -174,9 +174,12 @@ const styles = {
   button: {
     minHeight: [30, null, null, 45, 40, 50],
     padding: ['0 20px', null, null, '0 40px', '0 20px', '0 40px'],
-    fontSize: [1, null, null, 2, 1, 2],
+    fontSize: [1, null, null, 2, 1, 1],
+    backgroundColor:'link',
+    color:'white',
+    fontFamily:'Poppins',
     '.recommended': {
-      backgroundColor: 'secondary',
+      backgroundColor: 'blue',
       color: 'white',
       ':hover': {
         backgroundColor: 'dark',
@@ -185,7 +188,7 @@ const styles = {
   },
   trial: {
     display: 'block',
-    color: rgba('#0F2137', 0.5),
+    color: 'blue',
     fontSize: ['13px', null, null, '15px'],
     lineHeight: 1.33,
     mt: [3, null, null, 5],

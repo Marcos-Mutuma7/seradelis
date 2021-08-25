@@ -35,7 +35,7 @@ const styles = {
     h4: {
       color: 'heading',
       fontFamily: 'headingAlt',
-      fontWeight: 700,
+      fontWeight: 500,
       fontSize: [2, null, null, 4, '17px', 4],
       lineHeight: 1.5,
       mt: 3,

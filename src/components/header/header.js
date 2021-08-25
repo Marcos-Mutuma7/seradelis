@@ -81,7 +81,7 @@ const styles = {
       cursor: 'pointer',
       display: ['flex'],
       fontWeight: 400,
-      color: 'heading',
+      color: "#33EA24", 
       padding: 0,
       transition: 'all 0.3s ease-in-out 0s',
       '+ a': {

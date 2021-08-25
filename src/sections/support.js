@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Heading, Text } from 'theme-ui';
 import SupportType from 'components/cards/support-type';
 import Image from 'components/image';
-import illustration from 'assets/images/support-2.png';
+import illustration from 'assets/images/blog/5.png';
 import icon1 from 'assets/images/icons/1.png';
 import icon2 from 'assets/images/icons/2.png';
 
@@ -30,12 +30,10 @@ const Support = () => {
           <div sx={styles.content}>
             <div sx={styles.heading}>
               <Heading sx={styles.title}>
-                Do you need help? Our support team ready to help you
+                Waste Transportation Logistics
               </Heading>
               <Text as="p" sx={styles.summary}>
-                Get your tests delivered at let home collect sample from the
-                victory of the managements that supplies best design system
-                guidelines ever.
+                GWith access to barges, trucks and a variety of rail cars, we can use our hands-on experience and strategic partnerships to arrange transportation for virtually any type of waste.
               </Text>
             </div>
             {/* <SectionHeading
@@ -62,6 +60,9 @@ const styles = {
   section: {
     pt: [8, null, null, null, 10, 17],
     pb: [8, null, null, null, 10, 16],
+  },
+  title:{
+    color:'link'
   },
 
   grid: {

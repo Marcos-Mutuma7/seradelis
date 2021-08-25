@@ -27,6 +27,7 @@ const styles = {
     },
     button: {
       ml: [3],
+     backgroundColor:'#0E0E6D',
     },
   },
 };
