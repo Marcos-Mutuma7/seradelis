@@ -52,8 +52,8 @@ export default Banner;
 
 const styles = {
   section: {
-    backgroundColor:'black',
-    background: `transparent url(${illustration}) no-repeat center top / cover`,   
+    background: ` url(${illustration}) no-repeat center top / cover`,   
+    backgroundSize: ['100%', null, null, null, 'cover'],
     pt: [18, null, null, 17, null, null, 0],
     pb: [12, null, null, 12, 7, 11, 0],
   },
